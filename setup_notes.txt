@@ -1,0 +1,39 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SETUP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. make sure Python is installed
+
+2. install gcc
+	Cygwin64: https://sourceware.org/cygwin/
+	include:
+		gcc-core
+		gdb
+
+3. verify installations with:
+	gcc --version
+	gdb --version
+	
+4. in Cygwin terminal run: 
+	cd "C:/Users/johnb/OneDrive - Indiana University/Fall 2023/Compilers/setup/python-student-support-code-main/"
+	gcc -c -g -std=c99 "runtime.c"
+   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DEBUG - .vscode\launch.json
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug current file",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
