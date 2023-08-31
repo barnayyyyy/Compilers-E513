@@ -28,15 +28,23 @@ interp_dict = {
     'patch_instructions': interp_x86,
 }
 
-if False:
-    run_one_test(os.getcwd() + '/tests/var/zero.py',
-                 'var',
-                 compiler,
-                 'var',
-                 typecheck_dict,
-                 interp_dict)
-else:
-    run_tests('var', compiler, 'var',
-              typecheck_dict,
-              interp_dict)
+################### # given
+#if False:
+#    run_one_test(os.getcwd() + '/tests/var/zero.py',
+#                 'var',
+#                 compiler,
+#                 'var',
+#                 typecheck_dict,
+#                 interp_dict)
+#else:
+#    run_tests('var', compiler, 'var',
+#              typecheck_dict,
+#              interp_dict)
+###################
 
+run_one_test(os.getcwd() + '/python-student-support-code-main/tests/var/Lvar_test1.py',
+             'var',
+             compiler,
+             'var',
+             typecheck_dict,
+             interp_dict)

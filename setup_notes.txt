@@ -14,7 +14,7 @@ SETUP
 	gdb --version
 	
 4. in Cygwin terminal run: 
-	cd "C:/Users/johnb/OneDrive - Indiana University/Fall 2023/Compilers/setup/python-student-support-code-main/"
+	cd "C:/Users/johnb/OneDrive - Indiana University/Fall 2023/Compilers-E513/python-student-support-code-main"
 	gcc -c -g -std=c99 "runtime.c"
    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

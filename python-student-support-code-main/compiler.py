@@ -8,7 +8,6 @@ from typing import List, Tuple, Set, Dict
 Binding = Tuple[Name, expr]
 Temporaries = List[Binding]
 
-
 class Compiler:
 
     ############################################################################

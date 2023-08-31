@@ -4,9 +4,8 @@
 from ast import Constant, Name
 
 from lark import Tree
-from utils import GlobalValue, label_name
+from utils import GlobalValue, label_name 
 from x86_ast import *
-
 
 def convert_int(value):
     return Tree("int_a", [value])    
